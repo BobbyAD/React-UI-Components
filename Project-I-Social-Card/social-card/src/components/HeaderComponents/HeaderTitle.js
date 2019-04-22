@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 import './Header.scss';
 
 const HeaderTitle = () => {
@@ -11,7 +12,7 @@ const HeaderTitle = () => {
                 <p>@LambdaSchool</p>
             </div>
             <div className="date">
-                <p>・26 jan</p>
+                <p>{moment().format("MMM Do")}</p>
             </div>
         </div>
     )
