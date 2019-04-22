@@ -1,0 +1,30 @@
+/* All styles for your Card Components live here */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    .card-banner {
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .card-content {
+        padding: 2% 1.5%;
+        .card-title {
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        .link-text {
+            color: grey;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+    }
+}

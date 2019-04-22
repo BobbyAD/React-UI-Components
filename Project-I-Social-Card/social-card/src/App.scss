@@ -3,6 +3,8 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
-.card-container {
+.card-component-container {
     width: 70%;
+    display: flex;
+    flex-direction: column;
 }

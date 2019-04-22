@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import CardContainer from "./components/CardComponents/CardContainer"
 
 const App = () => {
     return (
@@ -19,8 +20,9 @@ const App = () => {
         //         </strong>
         //     </p>
         // </div>
-        <div className="card-container">
+        <div className="card-component-container">
             <HeaderContainer />
+            <CardContainer />
         </div>
     );
 };
