@@ -1,10 +1,12 @@
 import React from 'react';
 import './Display.scss';
 
-const ActionButton = props => {
+const CalculatorDisplay = props => {
     return (
         <div className="display">
-            {props.text}
+            <div className="content">
+                {props.text}
+            </div>
         </div>
     )
 }

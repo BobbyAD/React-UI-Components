@@ -1,3 +1,15 @@
 .calculator {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 460px;
+    .body {
+        display: flex;
+        .numbers {
+            display: flex;
+            flex-wrap: wrap;
+            width: 345px;
+        }
+    }
 }

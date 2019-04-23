@@ -1,0 +1,14 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 458px;
+    height: 95px;
+    border: 1px solid grey;
+    font-size: 60px;
+    background: #222222;
+    color: white;
+    .content {
+        padding-right: 25px;
+    }
+}
