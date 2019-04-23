@@ -1,0 +1,49 @@
+.number-button {
+    .symbol {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 115px;
+        height: 95px;
+        background-color: #A0001E;
+        color: white;
+        font-size: 80px;
+        border: 2px solid grey;
+    }
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 115px;
+        height: 95px;
+        background-color: white;
+        color: #222222;
+        font-size: 60px;
+        border: 2px solid grey;
+    }
+}
+
+.action-button {
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 335px;
+        height: 95px;
+        background-color: white;
+        color: #222222;
+        font-size: 80px;
+        border: 2px solid grey;
+    }
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 335px;
+        height: 95px;
+        background-color: white;
+        color: #222222;
+        font-size: 80px;
+        border: 2px solid grey;
+    }
+}
