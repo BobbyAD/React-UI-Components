@@ -1,0 +1,18 @@
+.footer-content {
+    margin-left: 13%;
+    margin-top: 20px;
+    color: grey;
+    display: flex;
+    .footer-item {
+        display: flex;
+        margin-right: 10%;
+        align-items: center;
+        i {
+            margin-right: 50%
+        }
+        p {
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+}
